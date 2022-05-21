@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styled/styled.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <script src="./js/App.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <section class="presentacion" >
+            <div class="presentacion__texto">
+                <h1> Disfruta de la <span> <br/> mejor música</span></h1>
+                <p>Accede a tu cuenta para guardar tus albumenes favoritos</p>
+              
+                <button  > Contacta <a href="#formulario" ><i  class="fa-solid fa-arrow-right" ></i> </a></button>
+            </div>
+            <div class="presentacion__arrow">
+               <img src="./img/arrow.png" alt="">
+            </div>
+           
+           
+        </section>
+        <div class="presentacion__imagen">
+            <img src="./img/img.png" alt="fondo">
+        </div>
+    </header>
+    <main>
+        <section class="carrusel precios">
+            <h1 class="carrusel__titulo">Los mas escuchados </h1>
+            <p class="carrusel__parrafo"> Disfruta de tu musica  a un solo click y descubre que discos has guardado dentro de " mis albumes" </p>
+           <div>
+            <div class="slider-holder">
+                <span id="slider-image-1"></span>
+                <span id="slider-image-2"></span>
+                <span id="slider-image-3"></span>
+                <div class="image-holder">
+                    <img src="./img/imagen1.png" class="slider-image" />
+                    <img src="./img/imagen2.png" class="slider-image" />
+                    <img src="./img/imagen3.png" class="slider-image" />
+                </div>
+                
+            </div>
+            </div>
+        </section>
+        <section class="formulario" id="formulario">
+            <div class="formulario__texto">
+                <h1 class="formulario__titulo">Disfruta de la <span><br/> mejor musica</span></h1>
+                <p class="formulario__parrafo"> Escribenos en el siguiente formulario y un asesor se pondra en contacto contigo.</p>
+            </div>
+            <div class="row" >
+                <form action="">
+                    <input type="text" placeholder="nombre" class="box">
+                    <input type="Email" placeholder="correo"class="box">
+                    <input type="text" placeholder="razon"class="box">
+                    <input type="Email" placeholder="Descripcion"class="box">
+                    <li>
+                        <input type="checkbox" >
+                        <label for="terms">Acepto las <u> condiciones legales</u></label>
+                      </li>  
+                    <button >Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
